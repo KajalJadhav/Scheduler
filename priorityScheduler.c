@@ -2,7 +2,6 @@
 #include <stdlib.h>
 #include <string.h>
 
-
 Process* newProcess(String name,int time,int priority){
     Process *process = malloc(sizeof(Process));
     memcpy(process->name,name,sizeof(String));
